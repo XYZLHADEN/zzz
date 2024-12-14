@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Famous Writers and Their Works</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .writer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .writer-card {
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            margin: 20px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .writer-card:hover {
+            transform: scale(1.05);
+        }
+        .writer-card img {
+            width: 100%;
+            border-radius: 8px;
+            height: auto;
+        }
+        .writer-card h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .writer-card p {
+            font-size: 16px;
+            color: #555;
+        }
+        .writer-card .works {
+            text-align: left;
+            margin-top: 10px;
+        }
+        .writer-card .works li {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Remarkable Writers and Their Works</h1>
+    </header>
+
+    <div class="writer-container">
+        <!-- Writer 1 -->
+        <div class="writer-card">
+            <img src="pictures/cd.jpg" alt="Writer 1 Image">
+            <h2>Charles Dickens</h2>
+            <p><strong>Born:</strong> February 7, 1812</p>
+            <p><strong>Notable Works:</strong></p>
+            <ul class="works">
+                <li>A Tale of Two Cities</li>
+                <li>Oliver Twist</li>
+                <li>Great Expectations</li>
+                <li>David Copperfield</li>
+            </ul>
+        </div>
+
+        <!-- Writer 2 -->
+        <div class="writer-card">
+            <img src="pictures/ja.jpg" alt="Writer 2 Image">
+            <h2>Jane Austen</h2>
+            <p><strong>Born:</strong> December 16, 1775</p>
+            <p><strong>Notable Works:</strong></p>
+            <ul class="works">
+                <li>Pride and Prejudice</li>
+                <li>Sense and Sensibility</li>
+                <li>Emma</li>
+                <li>Persuasion</li>
+            </ul>
+        </div>
+
+        <!-- Writer 3 -->
+        <div class="writer-card">
+            <img src="pictures/mt.jpg" alt="Writer 3 Image">
+            <h2>Mark Twain</h2>
+            <p><strong>Born:</strong> November 30, 1835</p>
+            <p><strong>Notable Works:</strong></p>
+            <ul class="works">
+                <li>The Adventures of Huckleberry Finn</li>
+                <li>The Adventures of Tom Sawyer</li>
+                <li>Life on the Mississippi</li>
+                <li>A Connecticut Yankee in King Arthur's Court</li>
+            </ul>
+        </div>
+
+        <!-- Writer 4 -->
+        <div class="writer-card">
+            <img src="pictures/George_Orwell_press_photo.jpg" alt="Writer 4 Image">
+            <h2>George Orwell</h2>
+            <p><strong>Born:</strong> June 25, 1903</p>
+            <p><strong>Notable Works:</strong></p>
+            <ul class="works">
+                <li>1984</li>
+                <li>Animal Farm</li>
+                <li>Homage to Catalonia</li>
+                <li>Down and Out in Paris and London</li>
+            </ul>
+        </div>
+
+        <!-- Add more writers as needed -->
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <footer>
+        <p>&copy; 2024 Famous Writers Website</p>
+    </footer>
+
+</body>
+</html>
